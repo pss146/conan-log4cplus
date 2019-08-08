@@ -8,10 +8,10 @@ conan_basic_setup()
 
 file(GLOB SOURCE_FILES *.cpp)
 
-if(MSVC)
-    add_definitions("-DUNICODE")
-    add_definitions("-D_UNICODE")
-endif()
+#if(MSVC)
+#    add_definitions("-DUNICODE")
+#    add_definitions("-D_UNICODE")
+#endif()
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${PROJECT_NAME} ${CONAN_LIBS})
