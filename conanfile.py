@@ -9,10 +9,10 @@ class Log4cplusConan(ConanFile):
     name = "log4cplus"
     version = "2.0.3"
     description = "simple to use C++ logging API, modelled after the Java log4j API"
-    url = "https://github.com/bincrafters/conan-log4cplus"
+    url = "https://github.com/pss146/conan-log4cplus"
     homepage = "https://github.com/log4cplus/log4cplus"
     topics = ("conan", "log4cplus", "logging", "log", "logging-library")
-    author = "Bincrafters <bincrafters@gmail.com>"
+    author = "Perepelitsyn Stanislav <stas.perepel@gmail.com>"
     license = ("BSD-2-Clause, Apache-2.0")
     exports = ["LICENSE.md"]
     exports_sources = ["CMakeLists.txt"]
